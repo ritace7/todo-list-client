@@ -1,5 +1,5 @@
 {
-  "proxy": "http://localhost:4000",
+  "proxy": "https://todo-list-server-wzzf.onrender.com",
   "name": "todo-list",
   "version": "0.1.0",
   "private": true,
