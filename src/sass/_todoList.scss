@@ -1,0 +1,79 @@
+form{
+    label{
+        display: block;
+        font-size: $font-size;
+    }
+
+    input{
+        display: block;
+        padding: 0.2em;
+        margin: auto;
+        border: 1px solid #ddd;
+        border-radius: 0.4em;
+    }
+
+    button{
+        width: 4em;
+        height: 2.6em;
+        border: none;
+        border-radius: 0.4em;
+        display: block;
+        margin: 0.5em auto;
+        background-color: $color-header;
+        color: #fff;
+
+        &:hover{
+            transform: scale(1.1);
+            color:green;
+        }
+    }
+}
+
+.error{
+    width: 50%;
+    padding: 0.4em;
+    background: #ffefef;
+    border: 1px solid red;
+    color: red;
+    border-radius: 0.4em;
+    margin: 1em auto;
+}
+
+.todo-list{
+    li{
+        margin: 0.5em auto;
+        width: 95%;
+        font-size: $font-size;
+        text-align: left;
+        list-style: none;
+        border-bottom: 1px solid #f7a146;
+    }
+}
+
+.delete-btn{
+    float: right;
+    &:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+}
+
+.logout-btn{
+    width: 4em;
+    height: 2.2em;
+    border: 0.2em solid $color-header;
+    border-radius: 0.4em;
+    font-size: 1.1em;
+    background-color: $color-app;
+    color: $color-header;
+
+    &:hover{
+        transform: scale(1.1);
+        border: 0.1em solid red;
+        color:red;
+    }
+}
+
+.link{
+    text-decoration: none;
+}

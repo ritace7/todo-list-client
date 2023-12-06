@@ -1,0 +1,27 @@
+@import './config';
+@import './responsiveness';
+@import './todoList';
+
+body{
+    background-color: $color-body !important;
+}
+
+.App {
+    width: 50%;
+    height: 95vh;
+    margin: 2.5vh auto;
+    text-align: center;
+    overflow:scroll;
+    border-radius: 3em;
+    background-color: $color-app;
+    
+    h1{
+        background-color: $color-header;
+        height: 1.5em;
+        text-align: center;
+    }
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}

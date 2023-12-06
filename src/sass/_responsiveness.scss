@@ -1,0 +1,15 @@
+@include media-md{
+    .App {
+        width: 80% !important;
+        border-radius: 2em !important;
+    }
+}
+
+@include media-sm{
+    .App {
+        width: 100% !important;
+        height: 100vh !important;
+        margin: 0 !important;
+        border-radius: 0 !important;       
+    }
+}
